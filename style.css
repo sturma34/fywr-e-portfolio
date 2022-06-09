@@ -1,0 +1,33 @@
+html {
+    font-family: 'Libre Baskerville', serif; /* this should be the rest of the output you got from Google fonts */
+    background-color: #307CC9;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: white;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #567CA3;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
