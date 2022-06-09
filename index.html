@@ -10,6 +10,16 @@
         <script src="main.js" defer></script>
     </head>
     <body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="personal-narrative.html">Personal Narrative</a>
+        <a href="exploratory.html">Exploratory Essay</a>
+        <a href="rogerian.html">Rogerian Essay</a>
+        <a href="collected-writings.html">Collected Writings</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
         <h1>Akiva's First Year Writing E-Portfolio</h1>
         <img src="runner.jpg" alt="My test image">
         <p>I wrote a number of essays for my First Year Writing Seminar, and they were all related to running.</p>
@@ -21,6 +31,15 @@
             <li>A number of other <a href="collected-writings.html">collected writings.</a></li>
         </ol>
         <button>Change user</button>
-
     </body>
+    <script>
+        function myFunction() {
+            let x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </html>
